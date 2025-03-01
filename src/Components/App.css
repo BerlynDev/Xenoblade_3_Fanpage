@@ -1,0 +1,59 @@
+/* .HButtons {
+    text-align: center;
+    text-shadow: 2px;
+    box-sizing: border-box;
+    list-style: none;
+    margin: 1px;
+    padding: 0;
+
+    margin: .52rem .44rem 0;
+    position: relative;
+    cursor: pointer;
+    height: .18rem;
+    pointer-events: auto;
+
+    width: 100%;
+    height: 20%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    background: -webkit-linear-gradient(top, #000 0%, rgba(255, 255, 255, 0) 100%);
+    background: linear-gradient(180deg, #000 0%, rgba(255, 255, 255, 0) 100%);
+    pointer-events: none;
+    display: flex;
+    color: rgb(255, 255, 255);
+    
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+} */
+
+.HButtons {
+    
+    background: -webkit-linear-gradient(top, #000 0%, rgba(255, 255, 255, 0) 100%);
+    background: linear-gradient(180deg, #000 0%, rgba(255, 255, 255, 0) 100%);
+    color: rgb(255, 255, 255);
+    padding: 0;
+    margin: .52rem .44rem 0;
+    position: relative;
+    cursor: pointer;
+    height: .18rem;
+    pointer-events: auto;
+    width: 100%;
+    height: 100%;
+    display: -webkit-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+}
+.header-button-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    background-image: linear-gradient(to right, #e06a3b, #381fca);
+    
+}
